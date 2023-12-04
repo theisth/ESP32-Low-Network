@@ -5,7 +5,7 @@ if not sta.isconnected():
     print('connecting to network...')
     sta.active(True)
     #sta.connect('your wifi ssid', 'your wifi password')
-    sta.connect('Hudayi','hudayi2019')
+    sta.connect('WIFI_name','WIFI_password')
     while not sta.isconnected():
         pass
 
